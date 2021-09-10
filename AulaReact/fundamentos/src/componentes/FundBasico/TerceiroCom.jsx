@@ -7,9 +7,9 @@ const Aluno = props => {
             <h2>{props.nome}</h2>
             <p>
                 Sua nota é
-                <strong>{props.nota}</strong>
-                e sua situação é
-                <strong>{sit}</strong>
+                <strong> {props.nota} </strong>
+                e sua situação é 
+                <strong> {sit} </strong>
             </p>
         </div>
     )

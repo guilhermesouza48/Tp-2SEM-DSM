@@ -1,0 +1,18 @@
+.Cartao {
+    background-color: rgb(96, 42, 221);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid rgb(96, 42, 221);
+    margin: 25px;
+}
+.Cartao .Titulo {
+    padding: 7px;
+    justify-content: center;
+    display: flex;
+}
+
+.Cartao .Conteudo {
+    background-color: cornsilk;
+    color: black;
+    padding: 20px;
+}
