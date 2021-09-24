@@ -9,10 +9,28 @@ import Componente3 from './componentes/FundBasico/TerceiroCom'
 import Aluno from './componentes/FundBasico/TerceiroCom'
 import CompAleatorio from './componentes/FundBasico/CompAleatorio'
 import Cartao from './layout/cartao'
+import Familia from "./componentes/FundBasico/Familia"
+import FamiliaMembro from "./componentes/FundBasico/FamiliaMembro"
 
 const App = () => {
     return  (
         <div>
+            <Cartao Titulo = "POO">
+                <Familia sobrenome = "Silva">
+                    <FamiliaMembro nome = "Felipe" />
+                    <FamiliaMembro nome = "Irineu" />
+                    <FamiliaMembro nome = "Kevin" />
+                </Familia>
+            </Cartao>
+
+            <Cartao Titulo = "PUU">
+                <Familia sobrenome = "Lima">
+                    <FamiliaMembro nome = "Felipe" />
+                    <FamiliaMembro nome = "Irineu" />
+                    <FamiliaMembro nome = "Kevin" />
+                </Familia>
+            </Cartao>
+
             <Componente1 />
             <Componente2 
                 titulo = 'AOOOO TREM Q PULA SE N BOI É MULA!'
