@@ -11,11 +11,19 @@ import CompAleatorio from './componentes/FundBasico/CompAleatorio'
 import Cartao from './layout/cartao'
 import Familia from "./componentes/FundBasico/Familia"
 import FamiliaMembro from "./componentes/FundBasico/FamiliaMembro"
+import Tabela from "./componentes/Exercicios/tabelaProd"
+import Pai from "./componentes/FundBasico/indiretaPai"
 
 const App = () => {
     return  (
         <div>
-            <Cartao Titulo = "POO">
+            <Cartao Titulo="comunicação indireta">
+                <Pai/>
+            </Cartao>
+            <Cartao Titulo='Loja de Acessórios Gamers'>
+                <Tabela/>
+            </Cartao>
+            <Cartao Titulo = "Familia SILVA">
                 <Familia sobrenome = "Silva">
                     <FamiliaMembro nome = "Felipe" />
                     <FamiliaMembro nome = "Irineu" />
@@ -23,7 +31,7 @@ const App = () => {
                 </Familia>
             </Cartao>
 
-            <Cartao Titulo = "PUU">
+            <Cartao Titulo = "Familia LIMA">
                 <Familia sobrenome = "Lima">
                     <FamiliaMembro nome = "Felipe" />
                     <FamiliaMembro nome = "Irineu" />

@@ -1,0 +1,25 @@
+.TabelaProdutos table{
+    width: 100%;
+}
+
+.TabelaProdutos th {
+    background-color: #283c25;
+    color: #fff;
+}
+
+.TabelaProdutos .par {
+    background-color: #ddd;
+}
+
+.TabelaProdutos .impar {
+    background-color: #ccc;
+}
+
+.TabelaProdutos .alinha {
+    justify-content: center;
+    display: flex;
+}
+
+.TabelaProdutos tr td:last-child{
+    text-align: center;
+}
