@@ -13,10 +13,14 @@ import Familia from "./componentes/FundBasico/Familia"
 import FamiliaMembro from "./componentes/FundBasico/FamiliaMembro"
 import Tabela from "./componentes/Exercicios/tabelaProd"
 import Pai from "./componentes/FundBasico/indiretaPai"
+import Input from "./componentes/formulario/input"
 
 const App = () => {
     return  (
         <div>
+            <Cartao Titulo="Formulário">
+                <Input/>
+            </Cartao>
             <Cartao Titulo="comunicação indireta">
                 <Pai/>
             </Cartao>
